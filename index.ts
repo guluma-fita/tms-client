@@ -18,6 +18,7 @@ codeQualityScore: 90,
 };
 console.log(`Quiz grade: ${calculateGrade(quiz)}%`); // 80
 console.log(`Lab grade: ${calculateGrade(lab)}%`); // 87
+console.log(`Lab grade: ${calculateGrade(lab)}%`); // 87
 // Verify readonly try this line and check the compiler error:
 // quiz.id = "QUIZ-999";/
 // ERROR: Cannot assign to 'id' because it is a read-only property
